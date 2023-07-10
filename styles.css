@@ -29,7 +29,7 @@ nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.90);
 
@@ -47,7 +47,7 @@ nav span {
 
 }
 nav p{
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 800;
     /* border: 1px solid red; */
     color: white;
@@ -58,13 +58,14 @@ nav p{
     height: 850px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: end;
     background: rgba(229, 84, 115, 0.10);
     padding: 0 240px;
-
+    gap: 97px;
 }
 .banner-left{
     width: 708px;
+    margin: auto;
 }
 .banner-left h1{
     color: #272727;
@@ -90,14 +91,10 @@ nav p{
     font-weight: 700;
 }
 .btn-main:hover{
-    background-color: #e55473b9;
+    background-color: rgb(247, 29, 77)
 }
 
 .banner-right{
-    
-}
-.banner-img{
     height: 800px;
     width: 630px;
-
 }
