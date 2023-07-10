@@ -16,8 +16,6 @@ nav{
     justify-content: space-between;
     background-color: #111010;
     padding: 15px;
-    /* width: 100%; */
-    width: inherit;
     
 }
 .logo{
