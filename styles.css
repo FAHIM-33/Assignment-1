@@ -49,3 +49,53 @@ nav p{
     /* border: 1px solid red; */
     color: white;
 }
+/* ----------------Banner Styles---------------- */
+.banner{
+    min-width: 1280px;
+    max-width: 1920px;
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 0 240px;
+
+}
+.banner-left{
+    width: 708px;
+}
+.banner-left h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner-left p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    width: 634px;
+    margin: 32px 0;
+}
+
+.btn-main{
+    padding: 20px 43px;
+    align-items: center;
+    /* gap: 10px; */
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-main:hover{
+    background-color: #e55473b9;
+}
+
+.banner-right{
+    
+}
+.banner-img{
+    height: 800px;
+    width: 630px;
+
+}
