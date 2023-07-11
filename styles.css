@@ -6,6 +6,9 @@
     list-style: none;
     text-decoration: none;
 }
+a{
+    color: inherit;
+}
 /* -----------------Nav related styles-------------- */
 body{
     width: 1920px;
