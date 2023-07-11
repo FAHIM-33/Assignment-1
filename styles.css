@@ -108,7 +108,7 @@ nav p{
     /* border: 1px solid black; */
     text-align: center;
     width: 31%;
-    margin: 0 auto;
+    margin: 0 auto 48px;
 
 }
 .section-header{
@@ -120,21 +120,22 @@ nav p{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     line-height: 30px;
-    margin-top: 24px;
+    
 }
  
 .featured-lower{
     display: flex;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     align-items: end;
     justify-content: space-between;
+    gap: 24px;
 }
 .box{
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
-    
+    position: relative;
     
 
 }
@@ -143,12 +144,18 @@ nav p{
 }
 .mid{
     background: rgba(5, 151, 160, 0.15);
+    position: relative;
 }
 .last{
     background: rgba(71, 125, 17, 0.15);
 }
 .box img{
     margin: 110px 76px 0 78px;
-    border: 1px solid red;
-    position:;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 0;
+}
+.mid img{
+    position: absolute;
+    bottom: 40px;
 }
