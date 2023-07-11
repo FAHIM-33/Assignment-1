@@ -45,7 +45,7 @@ nav ul li:hover{
     color: #E55473;
     cursor: pointer;
 }
-nav span {
+span {
     color: #E55473;
 
 }
@@ -161,4 +161,58 @@ nav p{
 .mid img{
     position: absolute;
     bottom: 40px;
+}
+.img-caption{
+    display: flex;
+    justify-content: space-around;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: 32px auto 128px;
+}
+/* -----------------------SErvice box------------------ */
+.service{
+    padding: 0 240px;
+    margin-bottom: 128px;
+}
+.service-box{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+}
+.service-container{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1440px;
+    height: 320px;
+}
+
+/* -----------------SALE---------------- */
+
+.sale{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 620px;
+    background: rgba(229, 84, 115, 0.05);
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;  
+    font-size: 18px;
+    line-height: 30px;
+}
+.sale h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sale p{
+    margin: 24px auto 32px;
+    width: 594px;
 }
