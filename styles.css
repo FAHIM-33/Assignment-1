@@ -12,7 +12,7 @@ a{
 }
 /* -----------------Nav related styles-------------- */
 body{
-    /* width: 1920px; */    
+    width: 1920px;    
 }
 nav{
     display: flex;
@@ -21,7 +21,7 @@ nav{
     background-color: #111010;
     padding: 15px;
     position: fixed;
-    width: 100vw;
+    width: 1890px;
     z-index: 100;
 
 }
