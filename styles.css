@@ -98,3 +98,57 @@ nav p{
     height: 800px;
     width: 630px;
 }
+/* ---------------------Main Section ------------------ */
+.featured{
+    padding: 0 240px;
+    /* border: 1px solid red; */
+    margin-top: 178px;
+}
+.featured-upper{
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 31%;
+    margin: 0 auto;
+
+}
+.section-header{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.featured-upper p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
+}
+ 
+.featured-lower{
+    display: flex;
+    border: 1px solid blue;
+    align-items: end;
+    justify-content: space-between;
+}
+.box{
+    border: 1px solid purple;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    
+    
+
+}
+.first{
+    background: rgba(167, 33, 98, 0.15);
+}
+.mid{
+    background: rgba(5, 151, 160, 0.15);
+}
+.last{
+    background: rgba(71, 125, 17, 0.15);
+}
+.box img{
+    margin: 110px 76px 0 78px;
+    border: 1px solid red;
+    position:;
+}
