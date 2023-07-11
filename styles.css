@@ -5,6 +5,7 @@
     font-family: Lato;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 a{
     color: inherit;
@@ -28,7 +29,8 @@ nav{
     margin-left: 50px;
 }
 .nav-right{
-    margin-right: 50px;
+    margin-right: 100px;
+    /* border: 1px solid red; */
 }
 nav ul{
     /* border: 1px solid red; */
@@ -40,7 +42,7 @@ nav ul{
     color: rgba(255, 255, 255, 0.90);
 
 }
-nav ul li{
+nav ul a{
     padding: 10px;
     margin-right: 20px;
 }
