@@ -277,10 +277,7 @@ hr{
     /* background-color:#E55473; */
     background-color: white;
     width: 96%;
-    height: 1px;
-}
-.branch-left{
-
+    height: 2px;
 }
 .branch-cell{
     padding: 50px;
