@@ -216,3 +216,24 @@ nav p{
     margin: 24px auto 32px;
     width: 594px;
 }
+/* --------------------INSTAGRAM---------------- */
+.instagram{
+    padding: 0 240px;
+}
+.instagram-top{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    width: 594px;
+    margin: 128px auto 48px;
+}
+.instagram-top p{
+    margin: 24px auto 48px;
+}
+.instagram-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
