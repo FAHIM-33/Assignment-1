@@ -237,3 +237,37 @@ nav p{
     justify-content: space-between;
     margin-bottom: 128px;
 }
+
+/* -------------------Subscribe---------------- */
+.subscribe-section{
+    padding: 0px 240px;
+}
+.subscribe{
+    background-image: url(./image/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    height: 449px;
+    padding: 121.5px 287px;
+    text-align: center;
+}
+.subscribe p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    margin: 16px 0 48px;
+}
+.subscribe .email{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: white;
+}
+form{
+    display: flex;
+    gap: 16px;
+}
+input::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    padding-left: 15px;
+}
+
